@@ -21,7 +21,7 @@ params:
   comments: false
   homeInfoParams:
     Title: "sudo_blog"
-    Content: "ObsidianからHugo + Papermodで公開"
+    Content: "試験運用中のブログです。"
   socialIcons:
     - name: "Contact"
       url: "https://sudodo.github.io/shin-academia-web/ja/contact/"
