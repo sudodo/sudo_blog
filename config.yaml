@@ -3,7 +3,8 @@ languageCode: "ja"
 title: "sudo_blog"
 theme: "PaperMod"
 defaultContentLanguage: "ja"
-paginate: 10
+pagination:
+  pagerSize: 10
 
 params:
   author: "sudodo"
