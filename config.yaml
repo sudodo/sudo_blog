@@ -1,0 +1,57 @@
+baseURL: "https://sudodo.github.io/sudo_blog/"
+languageCode: "ja"
+title: "sudo_blog"
+theme: "PaperMod"
+defaultContentLanguage: "ja"
+paginate: 10
+
+params:
+  author: "sudodo"
+  defaultTheme: "light"
+  disableThemeToggle: false
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  ShowToc: true
+  comments: false
+  homeInfoParams:
+    Title: "sudo_blog"
+    Content: "ObsidianからHugo + Papermodで公開"
+  socialIcons:
+    - name: "Contact"
+      url: "https://sudodo.github.io/shin-academia-web/ja/contact/"
+  profileMode:
+    enabled: false
+
+menu:
+  main:
+    - identifier: contact
+      name: お問合せ
+      url: "https://sudodo.github.io/shin-academia-web/ja/contact/"
+      weight: 10
+
+taxonomies:
+  category: categories
+  tag: tags
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+# Enable tags and categories in sidebar
+permalinks:
+  posts: "/posts/:slug/"
+
+# Enable summary for posts
+summaryLength: 70
