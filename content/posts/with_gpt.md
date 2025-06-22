@@ -2,7 +2,7 @@
 title: "with_gpt"
 date: 2025-06-22
 draft: true
-author: sudodo
+author: 須藤明人
 tags: []
 categories: []
 ---
